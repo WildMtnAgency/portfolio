@@ -1,0 +1,3 @@
+[submodule "pexelsPhotoSearchApp"]
+	path = pexelsPhotoSearchApp
+	url = https://github.com/WildMtnAgency/pexelsPhotoSearchApp.git
