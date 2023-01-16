@@ -1,4 +1,4 @@
- /* PROJECT.HTML 
+/* PROJECT.HTML 
 -- gallery
 */
 
@@ -143,6 +143,7 @@
     line-height: 30px;
   }
 }
+
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {

@@ -15,7 +15,7 @@
   <meta content="summary_large_image" name="twitter:card">
   <meta content="width=device-width, initial-scale=1" name="viewport">
   <meta content="Webflow" name="generator">
-  <link href="css/styles2.css" rel="stylesheet" type="text/css">
+  <link href="css/pexels.css" rel="stylesheet" type="text/css">
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/wild-mountain-agency.webflow.css" rel="stylesheet" type="text/css">
@@ -70,7 +70,7 @@
       <section class="project-hero-section wf-section">
         <div class="hero-title-wrapper project-page">
           <div style="opacity:0;-webkit-transform:translate3d(0, 120PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 120PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 120PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 120PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG)" class="hero-title-wrap load-animation">
-            <h1 class="hero-slide-title">Pexels Photo Search App</h1>
+            <h1 class="hero-slide-title"><a class="subtle-link-noUnderline" href="pexelsPhotoSearchApp/index.html" target="_blank">Pexels Photo Search App</a></h1>
             <div class="slide-number">02</div>
           </div>
         </div>
@@ -78,7 +78,7 @@
           <div class="featured-work-backdrop load-animation"></div>
           <div class="featured-work-bg load-animation"></div>
           <video id="background-video" autoplay loop muted poster>
-            <source src="pexelsPhotoSearchApp/Pexels Photo Search App.mp4" type="video/mp4">
+            <source src="images/project-imgs/photo-app/Pexels Photo Search App.mp4" type="video/mp4">
             </video>
           <img class="mobile-featured-work-bg" src="https://bitbucket.org/revel-wheel-admin/portfolio-website/raw/8cbd107f50e69fa1a4e16af2ad2720b5e6ff1b92/images/project-imgs/revel-wheel/nightBG.jpeg">
         </div>
@@ -86,35 +86,38 @@
       <div class="navbar-animation-div">
         <section class="section no-padding-bottom space-for-hero-section wf-section">
           <div class="project-main-info w-clearfix">
-            <div class="half-div">
+            <div class="hide-mobile">
               <div class="hero-title-wrap">
-                <div class="project-title">Revel Wheel Store</div>
-                <div class="slide-number small">02</div>
+                <div class="project-title"><a class="subtle-link-noUnderline" href="pexelsPhotoSearchApp/index.html" target="_blank">Pexels Photo<br>Search App</a></div>
+                <div class="slide-number small">03</div>
               </div>
             </div>
             <div class="half-div mobile-full">
               <div class="project-info-block">
-                <div class="caps-text">January 2022</div>
-                <div class="caps-text">Shopify Development</div>
-                <div class="caps-text"><a style="text-decoration: none; color: white; cursor: pointer;" href="https://themes.shopify.com/themes/debut/styles/default">Debut Theme</a> Template</div>
+                <div class="caps-text">December 2022</div>
+                <div class="caps-text">AJAX &amp; API Development</div>
+                <div class="caps-text"><a class="subtle-link-noUnderline" href="pexelsPhotoSearchApp/index.html" target="_blank">Try it here! <ion-icon name="open-outline"></ion-icon></a></div>
               </div>
               <div class="project-summary">
-              <p>Revel Wheel Store is a one product store. The <a style="text-decoration: none; color: white; cursor: pointer;" href="https://themes.shopify.com/themes/debut/styles/default">Debut template</a> is a great for businesses with a smaller catalog. There are many features like: slideshow, promotional banner, background video, customer testimonals, and many customizable features. In addition, the Debut Template is a free shopify template to get you started. Debut has been in trusted by many store owners because of it's time tested capabilities. Are you ready to give it a try? Connect with me by following this <a style="text-decoration: underline; color: white; cursor: pointer;" href="contact.html">link</a>.</p><br>
+              <p>This Photo Search App is powered by <a class="subtle-link" href="https://www.pexels.com/api">Pexels API</a>. The Pexels API is free to the public. This project turns your words into pictures that are from Pexels API. Simply enter text into the input field and see images that match the words. Each photo has a hover feature that displays the photo title, photographer name, and connects you with the photographers Pexels account to follow them. Excited about this powerful yet simple app? <a class="subtle-link" href="contact.html">Connect with me</a>.</p><br>
               <p>Features:</p>
               <ol>
-                <li>Minimalist Navigation</li>
-                <li>Customizable Homepage Sections</li>
-                <li>Buy Now Button | Fast Checkout Feature</li>
-                <li>Customer Testimonials Feature</li>
-                <li>Excellent for small catalogs</li>
+                <li>Minimalist &amp; User Friendly Design</li>
+                <li>Search Bar Displays Photos from Words</li>
+                <li>Each Photo is Powered by Pexels API</li>
+                <li>Hover Feature Displays Photo &amp; Photographer Information</li>
+                <li>Responsive Web Design - Compatible on all Devices</li>
               </ol><br>
               <p>Development Tools:</p>
-              <ul>
-                <li>Shopify Template</li>
-                <li>HTML &amp; CSS</li>
-                <li>JavaScript</li>
-                <li>Shopify Liquid</li>
-              </ul>
+                <ul>
+                  <li>HTML &amp; CSS</li>
+                  <li>JavaScript</li>
+                  <li><a class="subtle-link" href="https://www.pexels.com/api">Pexels API</a></li>
+                  <li>AJAX</li>
+                  <li>XMLHttpRequest</li>
+                  <li>JSON</li>
+                  </ul>
+              </div>
             </div>
             </div>
           </div>
@@ -123,20 +126,18 @@
           <div data-delay="2000" data-animation="slide" class="project-slider w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="1200" data-infinite="true">
             <div class="mask w-slider-mask">
               <div class="project-slide w-slide">
-                <div class="center-project-img"><img src="images/project-imgs/revel-wheel/device-photos/horizonal/1homepage_ipad_silver_landscape.png" alt="" class="project-slide-img"></div>
-                <div class="project-slide-text">Homepage | One Product Page</div>
+                <div class="center-project-img">
+                  <img id="iphone-full" src="images/project-imgs/photo-app/mockups/iphone12pro-pexels.png" alt="iphone 12 pro responsive view of website" >
+                  <img id="iphone-mobile" src="images/project-imgs/photo-app/mockups/iphone12pro-pexels-mobile.png" alt="iphone 12 pro responsive view of website" ></div>
+                <div class="project-slide-text">iPhone 12 Pro | Mobile Compatible</div>
               </div>
               <div class="project-slide w-slide">
-                <div class="center-project-img"><img src="images/project-imgs/revel-wheel/device-photos/horizonal/2textImg_ipad_silver_landscape.png" alt="" class="project-slide-img"></div>
-                <div class="project-slide-text">Homepage | Product Information Section</div>
+                <div class="center-project-img"><img id="ipad-img" src="images/project-imgs/photo-app/mockups/ipad-pexels.png" alt="ipad responsive view of website" class="project-slide-img"></div>
+                <div class="project-slide-text">iPad Mini | Tablet Compatible</div>
               </div>
               <div class="project-slide w-slide">
-                <div class="center-project-img"><img src="images/project-imgs/revel-wheel/device-photos/horizonal/3instagram_ipad_silver_landscape.png" alt="" class="project-slide-img"></div>
-                <div class="project-slide-text">Homepage | Testimonials &amp; Instagram</div>
-              </div>
-              <div class="project-slide w-slide">
-                <div class="center-project-img"><img src="images/project-imgs/revel-wheel/device-photos/horizonal/4product_ipad_silver_landscape.png" alt="" class="project-slide-img"></div>
-                <div class="project-slide-text">Product Page | Detailed Product Page</div>
+                <div class="center-project-img"><img id="mac-img" src="images/project-imgs/photo-app/mockups/macbook-pro-pexels.png" alt="macbook pro responsive view of website" class="project-slide-img"></div>
+                <div class="project-slide-text">Macbook Pro | Desktop Compatible</div>
               </div>
             </div>
             <div class="slide-arrow w-slider-arrow-left"><img src="images/webflow-imgs/chevron-left.svg" alt="" class="slide-arrow-icon"></div>
