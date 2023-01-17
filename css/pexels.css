@@ -25,6 +25,9 @@
 	#iphone-mobile {
 		display: block;
 	}
+	#iphone-img {
+		width: 200px;
+	}
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -38,6 +41,9 @@
 	#iphone-mobile {
 		display: block;
 	}
+	#iphone-img {
+		width: 210px;
+	}
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -47,10 +53,14 @@
 	}
 	#iphone-full {
 		display: block;
-		width: 250px;
+		width: 220px;
 	}
 	#iphone-mobile {
 		display: none;
+	}
+	#ipad-img,
+	#mac-img {
+		width: 35vw;
 	}
 }
 
@@ -61,8 +71,34 @@
 	}
 	#iphone-full {
 		display: block;
+		width: 260px;
 	}
 	#iphone-mobile {
 		display: none;
+	}
+	#iphone-img {
+		width: 230px;
+	}
+	#ipad-img,
+	#mac-img {
+		width: 40vw;
+		margin-top: -10px;
+	}
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+	.hide-mobile{
+		display: flex;
+	}
+	#iphone-full {
+		display: block;
+	}
+	#iphone-mobile {
+		display: none;
+	}
+	#iphone-img {
+		width: 250px;
+		margin-top: -20px;
 	}
 }
