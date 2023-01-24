@@ -1,73 +1,58 @@
-/* PROJECT.HTML 
--- gallery
-*/
-
-#login-bg {
-  background-color: #f1f1f1;
-  padding-bottom: 48px;
+/* projects-copy.html */
+.projects-container {
+  margin: auto;
 }
-
-.project-text {
-    position: absolute; 
-    top: 78%; 
-    left: 50%; 
-    transform: translate(-50%); 
-    text-align: center;
-    cursor: pointer;
-    z-index: 1;
-    background-color: #000;
-    width: 100%;
-    height: 90px;
-    padding: 10px 5px 0 15px;
-    border-radius: 5px;
-    box-sizing: border-box;
-    transition: 2s ease-in;
+.large-project-tabs {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  position: relative;
 }
-
-.project-text:hover {
-  opacity: 1;
-  transition: 2s ease-out;
+.large-tab {
+  position: relative;
+  width: 47%;
+  align-items: flex-start;
+  margin: 5px;
 }
-
-.project-subtitle,
-.project-num {
-  color: #fff; 
+.large-tab a {
+  color:#000;
+  opacity: 0.55;
   text-decoration: none;
 }
-
-.project-subtitle {
-    font-size: 28px;
-    line-height: 30px;
+.large-tab a:hover {
+  color:#000;
+  opacity: 1;
+  text-decoration: none;
 }
-
-.project-num {
+.large-tab img {
+  z-index: 2;
+  width: 100%;
+}
+.tab-text {
+  position:absolute;
+  top: 85%;
+  left: 50%;
+  transform: translate(-50%);
+  z-index: 4;
+  background-color:#101010;
+  width: 101%;
+  height: 70px;
+  padding: 5px;
+  text-align: center;
+}
+.project-subtitle {
   font-size: 18px;
 }
-
-/* mobile project gallery */
-.mobile-project-gallery {
-  display: none;
-}
-
-/* FIGURE IMAGE DISPLAY 
---- HTML / CSS PROJECT PAGES
-*/
-
-.figure-img-display {
-  width: 100%; 
-  display: flex; 
-  justify-content: space-around; 
-  align-items: center;
-}
-
-.figure-img {
-  width: 700px;
-  height: auto;
-  background-color: #f1f1f1;
+.project-num {
+  font-size: 12px;
 }
 
 /* mobile project gallery */
 /* menu icons */
+.mobile-project-gallery {
+  display: none;
+}
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -80,10 +65,9 @@
     display: none;
   }
 
-  .project-gallery {
+  .projects-container {
     display: none;
   }
-
   .mobile-project-gallery {
     width: 100%; 
     display: flex; 
@@ -146,11 +130,22 @@
   .large-menu-icon {
     display: none;
   }
-
   .small-menu-icon {
     display: block;
     font-size: 28px;
   }
+  .projects-container {
+    display: none;
+  }
+  .mobile-project-gallery {
+    width: 100%; 
+    display: flex; 
+    flex-direction: column;       
+    justify-content: space-evenly; 
+    gap: 10px; 
+    margin: 10px 10px;
+  }
+
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -159,11 +154,34 @@
     display: block;
       font-size: 32px;
   }
-
   .small-menu-icon {
     display: none;
   }
-
+  .projects-container {
+    display: flex;
+  }
+  .mobile-project-gallery {
+    display: none;
+  }
+  .tab-text {
+    position:absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 4;
+    text-align: center;
+  }
+  .project-subtitle,
+  .project-num {
+    color: #fff; 
+    text-decoration: none;
+  }
+  .project-subtitle {
+    font-size: 14px;
+  }
+  .project-num {
+    font-size: 10px;
+  }
   .project-gallery {
     width: 100%; 
     display: flex; 
@@ -172,7 +190,6 @@
     gap: 15px; 
     margin: 10px 10px;
   }
-
   .project-img {
     width: 50%; 
     height: auto; 
@@ -182,19 +199,16 @@
     background-color: #000;
     opacity: 0.7;
   }
-
   .project-img a {
     background-color: #000;
     opacity: 0.7;
     text-decoration: none;
   }
-
   .project-img a:hover {
     opacity: 1;
     transition: 1s ease-in-out;
     overflow: hidden;
   }
-
   .project-text {
     position: absolute; 
     top: 78%; 
@@ -210,30 +224,17 @@
     border-radius: 5px;
     box-sizing: border-box;
     transition: 2s ease-in;
-}
-
+  }
   .project-text:hover {
     opacity: 1;
     transition: 2s ease-out;
   }
-
-  .project-subtitle,
-  .project-num {
-    color: #fff; 
-    text-decoration: none;
-  }
-
   .project-subtitle {
       font-size: 28px;
       line-height: 30px;
   }
-
   .project-num {
     font-size: 18px;
-  }
-
-  .mobile-project-gallery {
-    display: none;
   }
 }
 
@@ -245,5 +246,29 @@
 
   .large-menu-icon {
     font-size: 38px;
+  }
+  .projects-container {
+    display: flex;
+  }
+  .mobile-project-gallery {
+    display: none;
+  }
+  .tab-text {
+    position:absolute;
+    top: 85%;
+    left: 50%;
+    transform: translate(-50%);
+    z-index: 4;
+    background-color:#101010;
+    width: 101%;
+    height: 70px;
+    padding: 5px;
+    text-align: center;
+  }
+  .project-subtitle {
+    font-size: 18px;
+  }
+  .project-num {
+    font-size: 12px;
   }
 }
