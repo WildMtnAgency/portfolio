@@ -8,7 +8,7 @@
   <meta content="| Kim Weincek | Web Developer" >
   <meta content="| Kim Weincek | Web Developer" >
   <link href="css/styles2.css" rel="stylesheet" type="text/css">
-  <link href="css/pexels.css" rel="stylesheet" type="text/css">
+  <!-- <link href="css/pexels.css" rel="stylesheet" type="text/css"> -->
   <link href="css/normalize.css" rel="stylesheet" type="text/css">
   <link href="css/webflow.css" rel="stylesheet" type="text/css">
   <link href="css/wild-mountain-agency.webflow.css" rel="stylesheet" type="text/css">
@@ -62,17 +62,17 @@
       <section class="project-hero-section wf-section">
         <div class="hero-title-wrapper project-page">
           <div style="opacity:0;-webkit-transform:translate3d(0, 120PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-moz-transform:translate3d(0, 120PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);-ms-transform:translate3d(0, 120PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG);transform:translate3d(0, 120PX, 0) scale3d(1, 1, 1) rotateX(0) rotateY(0) rotateZ(0) skew(0, 2DEG)" class="hero-title-wrap load-animation">
-            <h1 class="hero-slide-title"><a class="subtle-link-noUnderline" href="pexelsPhotoSearchApp/index.html" target="_blank">Evergreen Brew Store</a></h1>
+            <h1 class="hero-slide-title"><a class="subtle-link-noUnderline">Evergreen Brew Store</a></h1>
             <div class="slide-number">04</div>
           </div>
         </div>
         <div class="featured-work-bg-wrap">
           <div class="featured-work-backdrop load-animation"></div>
           <div class="featured-work-bg load-animation"></div>
-          <video id="background-video" autoplay loop muted poster>
-            <source src="images/project-imgs/photo-app/Pexels Photo Search App.mp4" type="video/mp4">
+            <img class="mobile-featured-work-bg" src="images/project-imgs/evergreen-brew/evergreen-hero-bg-still.png">
+            <video id="background-video" autoplay loop muted poster>
+              <source style="width: 100%; background-size: cover;" src="images/project-imgs/evergreen-brew/Evergreen Brew 30s preview.mp4" type="video/mp4">
             </video>
-          <img class="mobile-featured-work-bg" src="https://bitbucket.org/revel-wheel-admin/portfolio-website/raw/8cbd107f50e69fa1a4e16af2ad2720b5e6ff1b92/images/project-imgs/revel-wheel/nightBG.jpeg">
         </div>
       </section>
       <div class="navbar-animation-div">
@@ -80,7 +80,7 @@
           <div class="project-main-info w-clearfix">
             <div class="hide-mobile">
               <div class="hero-title-wrap">
-                <div class="project-title"><a class="subtle-link-noUnderline" href="pexelsPhotoSearchApp/index.html" target="_blank">Evergreen Brew Store</a></div>
+                <div class="project-title">Evergreen Brew Store</div>
                 <div class="slide-number small">04</div>
               </div>
             </div>
@@ -88,17 +88,18 @@
               <div class="project-info-block">
                 <div class="caps-text">Feburary 2023</div>
                 <div class="caps-text">Shopify Development</div>
-                <div class="caps-text"><a class="subtle-link-noUnderline" href="pexelsPhotoSearchApp/index.html" target="_blank">Try it here! <ion-icon name="open-outline"></ion-icon></a></div>
+                <div class="caps-text"><a class="underline-link" href="https://themes.shopify.com/themes/dawn/styles/default" target="_blank">Dawn Theme  <ion-icon name="open-outline"></ion-icon></a></div>
               </div>
               <div class="project-summary">
-								<p>Evergreen Brew Store is an online coffee store. The <a style="text-decoration: none; color: white; cursor: pointer;" href="https://themes.shopify.com/themes/dawn/styles/default">Dawn template</a> is a great for anyone starting out in Shopify for the first time, it's budget friendly...free! And for those who want to update their current store with some really cool features without too much hassle. There are many features like: slideshow, promotional banner, background video, customer testimonals, and many customizable features. In addition, the Debut Template is a free shopify template to get you started. Debut has been in trusted by many store owners because of it's time tested capabilities. Are you ready to give it a try? Connect with me by following this <a style="text-decoration: underline; color: white; cursor: pointer;" href="contact.html">link</a>.</p><br>
-								<p>Features:</p>
+								<p>Evergreen Brew Store is an online aroma coffee store. The <a class="underline-link" href="https://themes.shopify.com/themes/dawn/styles/default">Dawn template</a> is a great for anyone starting out in Shopify for the first time it's free! And for those who want to update their current store with some really cool features without too much hassle. There are many features like: gallery, promotional banner, image banner, and email sign up.</p><br>
+                <p>This store has a testimonial slider that is an additional customizable feature. Each card has name, picture, and review is user interactive by scrolling or clicking the navigation dots. Thanks to <a class="underline-link" href="https://kenwheeler.github.io/slick/">Slick</a>, a free library for a quick startup to the testimonial slider. <a class="subtle-link-noUnderline" style="text-decoration: underline; color: white; cursor: pointer;" href="contact.html"></a>Work with me now!.</p>
+								<p>Dawn Theme Features:</p>
 								<ol>
-									<li>Minimalist Navigation</li>
-									<li>Customizable Homepage Sections</li>
-									<li>Buy Now Button | Fast Checkout Feature</li>
-									<li>Customer Testimonials Feature</li>
-									<li>Excellent for small catalogs</li>
+									<li>Sticky Header</li>
+									<li>Customizable Sections</li>
+									<li>Mega Menu</li>
+									<li>Image Gallery &amp; Slideshow</li>
+									<li>Product Filters</li>
 								</ol><br>
 								<p>Development Tools:</p>
 								<ul>
@@ -106,6 +107,7 @@
 									<li>HTML &amp; CSS</li>
 									<li>JavaScript</li>
 									<li>Shopify Liquid</li>
+                  <li>Slick Library</li>
 								</ul>
 							</div>
             </div>
@@ -113,21 +115,21 @@
           </div>
         </section>
         <section class="section center wf-section">
-          <div data-delay="2000" data-animation="slide" class="project-slider w-slider" data-autoplay="true" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="1200" data-infinite="true">
+          <div data-delay="2000" data-animation="slide" class="project-slider w-slider" data-autoplay="false" data-easing="ease" data-hide-arrows="false" data-disable-swipe="false" data-autoplay-limit="0" data-nav-spacing="3" data-duration="1200" data-infinite="true">
             <div class="mask w-slider-mask">
               <div class="project-slide w-slide">
                 <div class="center-project-img">
-                  <img id="iphone-full" src="images/project-imgs/photo-app/mockups/iphone12pro-pexels.png" alt="iphone 12 pro responsive view of website" >
-                  <img id="iphone-mobile" src="images/project-imgs/photo-app/mockups/iphone12pro-pexels-mobile.png" alt="iphone 12 pro responsive view of website" ></div>
-                <div class="project-slide-text">iPhone 12 Pro | Mobile Compatible</div>
+                  <img id="iphone-full" src="images/project-imgs/evergreen-brew/device-imgs/evergreen-iphone12black-homepage_portrait.png" alt="iphone 12 pro responsive view of Evergreen Brew store" >
+                </div>
+                <div class="project-slide-text">iPhone 12 Pro | Mobile Responsive</div>
               </div>
               <div class="project-slide w-slide">
-                <div class="center-project-img"><img id="ipad-img" src="images/project-imgs/photo-app/mockups/ipad-pexels.png" alt="ipad responsive view of website" class="project-slide-img"></div>
-                <div class="project-slide-text">iPad Mini | Tablet Compatible</div>
+                <div class="center-project-img"><img id="ipad-img" src="images/project-imgs/evergreen-brew/device-imgs/mock-homepage-collage-evergreenBrewStore_ipad_silver_landscape.png" alt="ipad responsive view of Evergreen Brew store" class="project-slide-img"></div>
+                <div class="project-slide-text">iPad | Tablet Responsive</div>
               </div>
               <div class="project-slide w-slide">
-                <div class="center-project-img"><img id="mac-img" src="images/project-imgs/photo-app/mockups/macbook-pro-pexels.png" alt="macbook pro responsive view of website" class="project-slide-img"></div>
-                <div class="project-slide-text">Macbook Pro | Desktop Compatible</div>
+                <div class="center-project-img"><img id="mac-img" src="images/project-imgs/evergreen-brew/device-imgs/evergreen-macbook_macbookpro13_front.png" alt="macbook pro responsive view of Evergreen Brew store" class="project-slide-img"></div>
+                <div class="project-slide-text">Macbook Pro | Desktop Responsive</div>
               </div>
             </div>
             <div class="slide-arrow w-slider-arrow-left"><img src="images/webflow-imgs/chevron-left.svg" alt="" class="slide-arrow-icon"></div>

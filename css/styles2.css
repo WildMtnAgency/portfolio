@@ -272,3 +272,16 @@
     font-size: 12px;
   }
 }
+
+.no-underline-link:visited,
+.no-underline-link:active,
+.no-underline-link:hover {
+  text-decoration: none;
+}
+
+.underline-link:hover,
+.underline-link:active,
+.underline-link:visited {
+  color: white;
+  text-decoration: underline;
+}

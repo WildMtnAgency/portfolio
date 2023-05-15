@@ -24,6 +24,7 @@ h1 {
   font-size: 48px;
   line-height: 54px;
   font-weight: 500;
+  color: white;
 }
 
 h2 {
@@ -75,7 +76,6 @@ p {
 
 a {
   color: #a1a1a1;
-  text-decoration: underline;
 }
 
 ul {
@@ -749,6 +749,10 @@ figcaption {
   text-shadow: 0 0 16px rgba(16, 16, 16, 0.3);
 }
 
+.hero-slide-title a {
+  color: white;
+}
+
 .hero-title-wrap {
   position: relative;
   display: -webkit-box;
@@ -1295,6 +1299,19 @@ figcaption {
   justify-content: center;
 }
 
+#iphone-full {
+  width: 18%;
+}
+
+#ipad-img {
+  margin-top: 10px;
+  width: 45%;
+}
+
+#mac-img {
+  width: 50%;
+}
+
 .slide-arrow {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1360,7 +1377,7 @@ figcaption {
 
 #background-video {
   width: 100vw;
-  height: 100vh;
+  height: 80vh;
   object-fit: cover;
   position: fixed;
   left: 0;
@@ -1385,7 +1402,7 @@ figcaption {
   opacity: 0.6;
 }
 
-.featured-work-backdrop {
+/* .featured-work-backdrop {
   position: absolute;
   left: 0px;
   top: 0px;
@@ -1394,7 +1411,7 @@ figcaption {
   z-index: 1;
   background-color: #101010;
   opacity: 0.75;
-}
+} */
 
 .project-body {
   height: 100%;
@@ -2322,13 +2339,23 @@ figcaption {
     line-height: 20px;
   }
 
+  .featured-work-bg {
+    display: none;
+  }
+
+  #background-video {
+    display: none;
+    height: 0;
+  }
+
   .mobile-featured-work-bg {
     display: block;
     width: 100%;
+    margin-top: 55px;
   }
 
   .featured-work-link-block.featured-projects {
-    min-height: 40vh;
+    min-height: 50vh;
   }
 
   .service-wrap {
@@ -2553,15 +2580,19 @@ figcaption {
     flex-direction: column;
   }
 
-  #background-video { display: none; }
-  body {
-    background: url("https://bitbucket.org/revel-wheel-admin/portfolio-website/raw/4388786a337b3eabd9c00e2d2d36ebc7e4d8baf6/images/project-imgs/united-outdoor/UN-home-newArrivals-navBar.png") no-repeat;
-    background-size: cover;
+  .featured-work-bg {
+    display: none;
+  }
+
+  #background-video {
+    display: none;
+    height: 0;
   }
 
   .mobile-featured-work-bg {
     display: block;
     width: 100%;
+    margin-top: 35px;
   }
 }
 
@@ -2575,10 +2606,6 @@ figcaption {
   .slide-number {
     display: none;
   }
-
-  /* .subtitle.small {
-    margin-left: 0px;
-  } */
 
   .section.center.top {
     -webkit-box-orient: vertical;
@@ -2636,9 +2663,19 @@ figcaption {
     transform: none;
   }
 
+  .featured-work-bg {
+    display: none;
+  }
+
+  #background-video {
+    display: none;
+    height: 0;
+  }
+
   .mobile-featured-work-bg {
     display: block;
     width: 100%;
+    margin-top: 55px;
   }
 
   .hero-slide-title {
