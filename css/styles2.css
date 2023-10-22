@@ -15,7 +15,7 @@
   width: 600px;
   height: 400px;
   align-items: flex-start;
-  margin: 5px;
+  margin: 10px;
 }
 .large-tab a {
   color:#000;
@@ -60,6 +60,17 @@
   top: 4%;
   left: 94%;
   font-size: 14px;
+}
+
+/* ABOUT | LINKS */
+.about-link a {
+  color:#fff;
+  text-decoration: none;
+}
+
+.about-link a:hover {
+  color:#fff;
+  text-decoration: underline;
 }
 
 /* mobile project gallery */
