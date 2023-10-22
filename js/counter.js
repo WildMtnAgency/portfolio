@@ -16,22 +16,23 @@ let projectNamesOrder = [
 	{"projectSubtitle": "Fast Food Delivery", 'projectNum': 8},
 	{"projectSubtitle": "Freemote Blog", 'projectNum': 9},
 	{"projectSubtitle": "iCalnex Landing Page", 'projectNum': 10},
-	{"projectSubtitle": "Coming Soon", 'projectNum': 11}
+	{"projectSubtitle": "Coming Soon", 'projectNum': 11},
+	{"projectSubtitle": "Login Page", 'projectNum': 12}
 ];
 
 let allProjectSubtitlesDOM = document.getElementsByClassName('project-subtitle');
 let allProjectNumsDOM = document.getElementsByClassName('project-num');
 let count = 0;
 
+for(var i=0; i <= 12; i++){
+	if(i < 9){
+		console.log(allProjectNumsDOM[i].innerHTML = `0${projectNamesOrder[i].projectNum}`);
+	} else {
+		console.log(allProjectNumsDOM[i].innerHTML = projectNamesOrder[i].projectNum);
+	}
+}
+
 for(projectSubtitle of allProjectSubtitlesDOM){
 	projectSubtitle.innerHTML = projectNamesOrder[count].projectSubtitle;
 	count++;
-}
-
-for(var i=0; i <= 11; i++){
-	if(i < 9){
-		allProjectNumsDOM[i].innerHTML = `0${projectNamesOrder[i].projectNum}`;
-	} else {
-		allProjectNumsDOM[i].innerHTML = projectNamesOrder[i].projectNum;
-	}
 }

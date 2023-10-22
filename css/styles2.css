@@ -63,12 +63,13 @@
 }
 
 /* ABOUT | LINKS */
-.about-link a {
+.about-link:visited,
+.about-link:active {
   color:#fff;
   text-decoration: none;
 }
 
-.about-link a:hover {
+.about-link:hover {
   color:#fff;
   text-decoration: underline;
 }
