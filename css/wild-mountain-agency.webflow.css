@@ -792,7 +792,6 @@ figcaption {
 .hero-paragraph {
   display: block;
   max-width: 25vw;
-  margin-bottom: 48px;
   margin-left: 4px;
 }
 
@@ -2217,7 +2216,6 @@ figcaption {
 
   .hero-paragraph {
     max-width: 50vw;
-    margin-bottom: 24px;
     font-size: 12px;
     line-height: 18px;
     letter-spacing: 0.2px;
