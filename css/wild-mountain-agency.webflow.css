@@ -1728,7 +1728,7 @@ figcaption {
   margin-bottom: 24px;
 }
 
-.muted-text {
+.  {
   display: inline-block;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -1748,7 +1748,7 @@ figcaption {
   /* text-transform: uppercase; */
 }
 
-.muted-text.experience {
+. .experience {
   text-transform: none;
 }
 
@@ -2041,7 +2041,7 @@ figcaption {
     line-height: 22px;
   }
 
-  .muted-text {
+  .  {
     font-size: 14px;
     line-height: 20px;
   }
