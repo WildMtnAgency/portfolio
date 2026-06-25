@@ -413,8 +413,8 @@ figcaption {
   display: inline-block;
   margin-left: 4px;
   font-family: Questrial, sans-serif;
-  font-size: 4vw;
-  line-height: 2.1vw;
+  font-size: 3vw;
+  line-height: 3vw;
   letter-spacing: 0.5px;
   text-transform: capitalize;
 }
@@ -1207,7 +1207,7 @@ figcaption {
 
 .caps-text {
   display: inline-block;
-  margin-right: 40px;
+  margin-right: 10px;
   padding-top: 8px;
   padding-bottom: 8px;
   -webkit-box-orient: horizontal;
@@ -1224,7 +1224,7 @@ figcaption {
   font-size: 16px;
   line-height: 22px;
   letter-spacing: 0.4px;
-  text-decoration: none;
+  text-decoration: underline;
   text-transform: uppercase;
 }
 
@@ -1728,7 +1728,7 @@ figcaption {
   margin-bottom: 24px;
 }
 
-.  {
+/* .  {
   display: inline-block;
   -webkit-box-orient: horizontal;
   -webkit-box-direction: normal;
@@ -1745,10 +1745,10 @@ figcaption {
   line-height: 22px;
   letter-spacing: 0.4px;
   text-decoration: none;
-  /* text-transform: uppercase; */
-}
+  text-transform: uppercase;
+} */
 
-. .experience {
+.experience {
   text-transform: none;
 }
 
@@ -2041,10 +2041,10 @@ figcaption {
     line-height: 22px;
   }
 
-  .  {
+  /* .  {
     font-size: 14px;
     line-height: 20px;
-  }
+  } */
 }
 
 @media screen and (max-width: 991px) {
@@ -2089,8 +2089,8 @@ figcaption {
   }
 
   .subtitle {
-    font-size: 14px;
-    line-height: 20px;
+    font-size: 3vw;
+    line-height: 3vw;
   }
 
   .subtitle.small {
