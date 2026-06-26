@@ -743,7 +743,7 @@ figcaption {
 .hero-slide-title {
   margin-top: 0px;
   margin-bottom: 24px;
-  font-size: 6vw;
+  font-size: 4vw;
   line-height: 7vw;
   text-align: center;
   text-shadow: 0 0 16px rgba(16, 16, 16, 0.3);
@@ -792,7 +792,6 @@ figcaption {
 .hero-paragraph {
   display: block;
   max-width: 25vw;
-  margin-left: 4px;
 }
 
 .arrow-btn {
@@ -1481,12 +1480,6 @@ figcaption {
   width: 100%;
 }
 
-.menu-number {
-  margin-right: 24px;
-  font-size: 14px;
-  line-height: 20px;
-}
-
 .nav-menu-content {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1532,14 +1525,6 @@ figcaption {
   color: #fff;
   text-decoration: none;
   cursor: pointer;
-}
-
-.view-more-text {
-  display: inline-block;
-  font-family: Questrial, sans-serif;
-  color: #fff;
-  letter-spacing: 0.5px;
-  text-transform: uppercase;
 }
 
 .cross-icon {
@@ -2199,7 +2184,7 @@ figcaption {
 
   .hero-slide-title {
     margin-bottom: 16px;
-    font-size: 72px;
+    font-size: 60px;
     line-height: 78px;
   }
 
@@ -2358,16 +2343,6 @@ figcaption {
   .service-wrap {
     width: 100%;
     float: none;
-  }
-
-  .menu-number {
-    font-size: 12px;
-    line-height: 14px;
-  }
-
-  .view-more-text {
-    font-size: 10px;
-    line-height: 16px;
   }
 
   .cross-icon {
